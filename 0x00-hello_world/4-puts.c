@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - does not return a value hence 'void'
+ * main - Does not return a value hence 'void'
  *
- * return: 0 int to main
+ * Return: It returns 0 int value to main
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
