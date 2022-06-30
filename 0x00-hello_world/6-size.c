@@ -20,6 +20,5 @@
 	printf("The size of a long int: %lu.\n", (unsigned long)sizeof(ln));
 	printf("The size of a long long int: %lu.\n", (unsigned long)sizeof(lln));
         printf("The size of a float: %lu.\n", (unsigned long)sizeof(f));
-
 	return (0);	
 }
