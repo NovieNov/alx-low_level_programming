@@ -6,7 +6,7 @@
  * Return: returns 0 to main.
  */
 int main(void)
-{	
+{
 	char x;
 
 	for (x = 'a'; x <= 'z'; x++)
