@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * _islower - Check the code
+ *@c: single letter input
  *
- * Return: return either 1 0r 0 
+ * Return: return either 1 0r 0
  */
 int _islower(int c)
 {
@@ -11,7 +12,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
