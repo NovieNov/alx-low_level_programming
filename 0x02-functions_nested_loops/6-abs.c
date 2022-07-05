@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
+ * _abs(int) - Check the code
+ * @x: single character
  *
+ * Return: return the value of _abs
  */
 int _abs(int x)
 {	
