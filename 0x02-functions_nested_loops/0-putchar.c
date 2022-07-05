@@ -9,7 +9,7 @@ int main(void)
 {
 	char *c = "_putchar";
 
-	while(*c)
+	while (*c)
 	{
 		_putchar(*c);
 		c++;
@@ -17,5 +17,5 @@ int main(void)
 	_putchar('\n');
 
 
-	return(0);
+	return (0);
 }
