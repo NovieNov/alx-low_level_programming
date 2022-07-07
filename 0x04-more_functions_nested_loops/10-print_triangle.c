@@ -2,6 +2,7 @@
 
 /**
  * print_triangle - checks code
+ * @size: holds the value of type int
  */
 void print_triangle(int size)
 {
