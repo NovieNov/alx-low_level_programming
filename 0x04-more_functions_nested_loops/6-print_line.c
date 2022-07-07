@@ -5,13 +5,12 @@
  */
 void print_line(int n)
 {
-	int m = '_';
+	char m = '_';
 
 	if (n > 0)
 	{
 		_putchar(m);
 		_putchar('\n');
-		m++;
 	}
 	else if (n <= 0)
 	{
