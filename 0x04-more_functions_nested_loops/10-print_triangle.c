@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *
+ * print_triangle - checks code
  */
 void print_triangle(int size)
 {
