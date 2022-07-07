@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _putchar - Checks the code
+ * _isupper - Checks the code
  * @c: single special character
  *
  * Return: Always 0 (SUCCESS)
  */
-int _putchar(char c)
+int _isupper(int c)
 {
-	if (c >= 'C' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
