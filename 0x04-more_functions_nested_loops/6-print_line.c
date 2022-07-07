@@ -2,18 +2,23 @@
 
 /**
  * print_line - checks code
+ * @n: a single character
  */
 void print_line(int n)
 {
-	char m = '_';
+	int m;
 
-	if (n > 0)
+	if (n <= 0)
 	{
-		_putchar(m);
 		_putchar('\n');
 	}
-	else if (n <= 0)
+
+	else
 	{
-		_putchar('\n');
+		for (m = 1; m <= n; m++)
+		{
+			_putchar('_');
+			_putchar('\n');
+		}
 	}
 }
