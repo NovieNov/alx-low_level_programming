@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - checks the code
+ * @n: a single character with type int
  */
 void print_diagonal(int n)
 {
