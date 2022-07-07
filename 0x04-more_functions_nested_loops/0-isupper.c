@@ -8,7 +8,7 @@
  */
 int _putchar(char c)
 {
-	if (c == 'C')
+	if (c == 'C'|| c < 'Z')
 	{
 		return (1);
 	}
