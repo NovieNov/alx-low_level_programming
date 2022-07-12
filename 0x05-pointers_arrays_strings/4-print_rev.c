@@ -2,7 +2,7 @@
 
 /**
  * print_rev - Checks the code
- * s: the pointer
+ * @s: The pointer
  */
 void print_rev(char *s)
 {
