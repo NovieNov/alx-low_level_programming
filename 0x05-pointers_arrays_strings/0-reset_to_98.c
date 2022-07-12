@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - Checks the code
- * *n: a pointer
+ * @n: a pointer
  */
 void reset_to_98(int *n)
 {
