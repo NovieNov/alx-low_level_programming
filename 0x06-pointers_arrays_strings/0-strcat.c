@@ -5,14 +5,22 @@
  * @dest: The pointer
  * @src: The pointer
  *
- * return: returns j
+ * return: returns 0
  */
 char *_strcat(char *dest, char *src)
 {
-	while (*dest != '\0')
+	int i;
+
+	for (i = 0; dest[i] != '\0';)
 	{
 		_putchar (*dest);
-		_putchar (*src);
+		i++;
 	}
+	while (src)
+	{
+		_putchar (*src);
+		src++;
+	}
+
 	return (0);
 }
