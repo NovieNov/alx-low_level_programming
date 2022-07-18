@@ -3,7 +3,7 @@
 /**
  * _strspn - checks the code
  * @s: The pointer
- * @accept: The pointer 
+ * @accept: The pointer
  *
  * Return: Value
  */
