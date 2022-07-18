@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stddef.h>
-
 /**
  * _strchr - Checks the code
  * @s: Pointer to a string
