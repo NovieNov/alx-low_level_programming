@@ -4,6 +4,7 @@
  * _strchr - Checks the code
  * @s: Pointer to a string
  * @c: variable c
+ * Return: returns null
  */
 
 char *_strchr(char *s, char c)
