@@ -2,7 +2,7 @@
 
 /**
  * _memset - checks the code
- * @s: the pointer 
+ * @s: the pointer
  * @b: the variable
  * @n: the value of the byte
  *
