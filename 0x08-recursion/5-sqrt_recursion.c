@@ -16,26 +16,25 @@ int _sqrt_recursion(int n)
 	{
 		return (squareroot(n, (n + 1) / 2));
 	}
-
-	/**
-	 * squareroot - checks if perfect square
-	 * @n: input
-	 * @i: input
-	 * Return: if square root
-	 */
-	int squareroot(int j, int i)
+}
+/**
+ * squareroot - checks if perfect square
+ * @n: input
+ * @i: input
+ * Return: if square root
+ */
+int squareroot(int j, int i)
+{
+	if (i < 1)
 	{
-		if (i < 1)
-		{
-			return (-1);
-		}
-		else if (i * i == j)
-		{
-			return (1);
-		}
-		else
-		{
-			return (squareroot(j, i - 1));
-		}
+		return (-1);
+	}
+	else if (i * i == j)
+	{
+		return (1);
+	}
+	else
+	{
+		return (squareroot(j, i - 1));
 	}
 }
