@@ -2,7 +2,7 @@
 
 /**
  *_print_rev_recursion - Checks the code
- @s: pointer to a string
+ * @s: pointer to a string
  */
 void _print_rev_recursion(char *s)
 {
