@@ -7,11 +7,12 @@
  */
 int _myname(int argc, char *argv[])
 {
-	argc = 0;
+	int i;
 
 	if (argc >= 0)
 	{
-		_putchar(*argv[0]);
+		for (i = 0; i < argc; i++)
+		_putchar(*argv[i]);
 	}
 	return (0);
 }
