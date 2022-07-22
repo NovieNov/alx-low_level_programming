@@ -8,11 +8,19 @@
  */
 int main(int argc, __attribute__((unused))char *argv[])
 {
-	int i;
+	int i = 0;
+	int j = 0;
 
-	for (i = 1; i < argc; i++)
+	if (i >= 1)
+	{	
+		for (i = 1; i < argc; i++)
+		{
+			printf("%d\n", i);
+		}
+	}
+	else
 	{
-		printf("%d\n", i);
+		printf("%d\n", j);
 	}
 	return (0);
 }
