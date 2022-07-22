@@ -12,7 +12,9 @@ int _myname(int argc, char *argv[])
 	if (argc > 0)
 	{
 		for (i = 0; i < argc; i++)
-		_putchar(*argv[0]);
+		{
+			_putchar(*argv[0]);
+		}
 	}
 	_putchar('\n');
 	return (0);
