@@ -5,6 +5,7 @@
  * main - Checks the function
  * @argc: command line argument counter
  * @argv: command line strings
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
