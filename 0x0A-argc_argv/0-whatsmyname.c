@@ -1,21 +1,15 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * _myname - Checks the function
+ * main - Checks the function
  * @argc: command line argument counter
  * @argv: command line strings
  */
-int _myname(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int i;
-
-	if (argc > 0)
-	{
-		for (i = 0; i < argc; i++)
-		{
-			_putchar(*argv[0]);
-		}
-	}
-	_putchar('\n');
+	argc = 0;
+	
+	printf("%s\n", argv[argc]);
 	return (0);
 }
