@@ -23,13 +23,11 @@ char *_strdup(char *str)
 
 	for (n = 0; n < i; n++)
 	{
+		s[n] = str[n];
 	}
-
-	s[n] = str[n];
 	if (s == NULL)
 	{
 		return (NULL);
 	}
-	free(s);
 	return (s);
 }
