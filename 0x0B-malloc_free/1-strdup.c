@@ -24,12 +24,11 @@ char *_strdup(char *str)
 	i += 1;
 	for (n = 0; n < i; n++)
 	{
-		s[n] = str[n];
+		s[n] = str[i];
 	}
 	if (s == NULL)
 	{
 		return (NULL);
 	}
 	return (s);
-	free(s);
 }
