@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _str - Checks the code
+ * _strdup - Checks the code
  * @str: String Input
  * Return: returns a pointer
  */
@@ -11,18 +11,17 @@ char *_strdup(char *str)
 	int i;
 	char *s;
 
-	for (i = 0; str[i] <= 0; i++)
+	for (i = 0; i <= *str; i++)
 	{
 	}
-
 	if (str == NULL)
 	{
 		return(NULL);
 	}
 
 	s = malloc(i * sizeof(char));
-	
-	s[i] = *str;
+
+	s[i] = str[i];
 	if (s == NULL)
 	{
 		return (NULL);
