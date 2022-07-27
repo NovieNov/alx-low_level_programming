@@ -5,6 +5,7 @@
  * free_grid - checks the code
  * @grid: input
  * @height: input
+ * Return: Always 0
  */
 void free_grid(int **grid, int height)
 {
