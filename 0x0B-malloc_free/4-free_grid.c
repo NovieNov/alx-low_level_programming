@@ -5,7 +5,6 @@
  * free_grid - checks the code
  * @grid: input
  * @height: input
- * Return: A pointer
  */
 void free_grid(int **grid, int height)
 {
@@ -19,4 +18,5 @@ void free_grid(int **grid, int height)
 		}
 		free(grid);
 	}
+	return;
 }
