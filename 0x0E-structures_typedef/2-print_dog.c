@@ -19,7 +19,7 @@ void print_dog(struct dog *d)
 	printf("Age: ");
 
 	printf("%f\n", d->age);
-	printf("owner: ");
+	printf("Owner: ");
 	if (d->owner)
 		printf("%s\n", d->owner);
 	else
