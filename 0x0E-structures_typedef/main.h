@@ -1,11 +1,10 @@
 #ifndef dog_H
 #define dog_H
 
-int _printf(char c);
-typedef struct dog
+typedef struct dog 
 {
 	char *name;
-	float age;
+	float *age;
 	char *owner;
 }
 
