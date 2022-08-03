@@ -6,6 +6,7 @@
  * array_iterator - Checks the code
  * @size: size of bytes in the array
  * @action: pointer to the function array
+ * Return: Always 0
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
