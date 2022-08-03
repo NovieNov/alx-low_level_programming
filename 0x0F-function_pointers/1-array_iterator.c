@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 #include <stdlib.h>
-#include <stddef.h>
+#include <stdio.h>
 
 /**
  * array_iterator - Checks the code
@@ -10,7 +10,7 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int n;
+	size_t n;
 	
 	if (array == NULL)
 		return;
