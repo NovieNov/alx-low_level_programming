@@ -4,6 +4,7 @@
 
 /**
  * array_iterator - Checks the code
+ * @array: input
  * @size: size of bytes in the array
  * @action: pointer to the function array
  * Return: Always 0
