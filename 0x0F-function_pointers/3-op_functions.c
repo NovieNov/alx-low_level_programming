@@ -1,29 +1,48 @@
-#include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "3-calc.h"
 
 /**
- * get_op_func - matches operator from main
- * @s: op str
- * Return: 0
+ * op_add - Checks for the sum of the given values
+ * @a: input
+ * @b: input
+ * Return: Returns the sum
  */
-int (*get_op_func(char *s))(int, int)
-{
-	op_t op_s[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL}
-	};
-	int i = 0;
+int op_add(int a, int b)
+	return (a + b);
 
-	while (op_s[i].op)
-	{
-		if (*(op_s[i].op) == *s)
-			return (op_s[i].f);
-		i++;
-	}
-	return (NULL);
-}
+/**
+ * op_sub - stubtracts the value of the given values
+ * @a: input
+ * @b: input
+ * Return: Returns the value of the operation
+ */	
+int op_sub(int a, int b)
+	return (a - b);
+
+/**
+ * op_mul - checks for the multiplication of the given values
+ * @a: input
+ * @b: input
+ * Return: Returns the value
+ */
+int op_mul(int a, int b)
+	return (a * b);
+
+/**
+ * op_div - checks for the division of the given values
+ * @a: input
+ * @b: input
+ * Return: Returns the value
+ */
+int op_div(int a, int b)
+	return (a / b);
+
+/**
+ * op_mod - checks for the modulus of the given values
+ * @a: input
+ * @b: input
+ * Return: Returns the sum of the operation 
+ */
+int op_mod(int a, int b)
+	return (a % b);
